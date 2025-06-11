@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Photography Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f4f4f4;
+      }
+      header {
+        background: #222;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+      nav {
+        background: #444;
+        padding: 10px 0;
+        text-align: center;
+      }
+      nav a {
+        color: #fff;
+        margin: 0 15px;
+        text-decoration: none;
+      }
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px;
+      }
+      .photo {
+        background: #fff;
+        margin: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        width: 300px;
+      }
+      .photo img {
+        width: 100%;
+        display: block;
+      }
+      .photo-caption {
+        padding: 10px;
+      }
+      footer {
+        background: #222;
+        color: #fff;
+        text-align: center;
+        padding: 15px 0;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Jane Doe Photography</h1>
+      <p>Capturing moments from today… Creating memories for a lifetime.</p>
+    </header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Portfolio</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    <main>
+      <section class="gallery">
+        <div class="photo">
+          <img
+            src="https://via.placeholder.com/300x200?text=Landscape"
+            alt="Landscape"
+          />
+          <div class="photo-caption">Sunset over the mountains</div>
+        </div>
+        <div class="photo">
+          <img
+            src="https://via.placeholder.com/300x200?text=Portrait"
+            alt="Portrait"
+          />
+          <div class="photo-caption">Portrait in natural light</div>
+        </div>
+        <div class="photo">
+          <img
+            src="https://via.placeholder.com/300x200?text=Cityscape"
+            alt="Cityscape"
+          />
+          <div class="photo-caption">City lights at night</div>
+        </div>
+      </section>
+    </main>
+    <footer>&copy; 2024 Jane Doe Photography. All rights reserved.</footer>
+  </body>
+</html>
